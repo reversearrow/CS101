@@ -1,0 +1,20 @@
+#Shift Letters
+
+
+def shift(letter):
+    letter_ascii = ord(letter)
+    if letter_ascii >= 122:
+        letter_ascii = 96
+        return chr(letter_ascii + 1)
+    else:
+        return chr(letter_ascii + 1)
+
+def shift_n_letters(letter,n):
+    letter_ascii = ord(letter)
+
+
+    if (letter_ascii+n) >= 122:
+            new = 96 + ((letter_ascii + n) - 122) 
+            return chr(new)
+    else:
+        return chr(letter_ascii + n)

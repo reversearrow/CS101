@@ -1,0 +1,26 @@
+#Test Programs:
+
+
+def product_list(a):
+    p = 1
+    if a == []:
+        return p
+
+    for i in a:
+        p = p * i
+    return p
+
+
+def greatest(a):
+    p = a
+    q = p[1:]
+    k = 0
+    if a == []:
+        return k
+
+    for i in p:
+        if i >= k : 
+            k = i
+           
+    return k
+            
