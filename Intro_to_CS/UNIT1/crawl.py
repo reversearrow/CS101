@@ -129,8 +129,5 @@ def record_user_click(index,word,url):
              i[1] = i[1] + 1
                       
     
-    
-def compute_ranks(graph):
-    # Output of the Compute Ranks will be the dictionary which will give each url a score
-    
+ 
     
