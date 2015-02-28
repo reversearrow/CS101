@@ -1,3 +1,3 @@
-CS101 - Introduction to Computer Programming
-Following repository contains all programs that has been created by me as a result of taking https://www.udacity.com/course/cs101.
-=====
+CS101 - Introduction to Computer Science
+This repository contains all problems for https://www.udacity.com/course/cs101. Also, dont't forget to checkout my final project Create and Analyze a Social Network.
+
